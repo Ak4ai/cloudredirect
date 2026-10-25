@@ -1982,7 +1982,7 @@ void Backend::enableAutoUpdates()
 
     // Use the hosted .flatpakrepo URL; the local file is inside the sandbox
     // and inaccessible to the host flatpak process via flatpak-spawn.
-    QString repoUrl = "https://selectively11.github.io/CloudRedirect/cloudredirect.flatpakrepo";
+    QString repoUrl = "https://crghofficial.github.io/cloudredirect/cloudredirect.flatpakrepo";
 
     QProcess proc;
     proc.start("flatpak-spawn", {"--host", "flatpak", "remote-add", "--user", "--if-not-exists", "cloudredirect", repoUrl});
